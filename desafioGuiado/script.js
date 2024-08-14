@@ -1,3 +1,4 @@
+// imprimiendo factoriales
 let calcularYmostrar = (num) => {
     if(num < 1 || num > 20 ){
         console.log("Numero fuera del rango");
@@ -15,7 +16,6 @@ let calcularYmostrar = (num) => {
             resultado = resultado * j;
         }
         console.log(`Factorial de ${i} = ${resultado}`);
-
     }
     
 }
