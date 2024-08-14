@@ -1,4 +1,5 @@
 // Listas de frutas 
+
 const listaFrutasA = [ 
     "manzana", "banana", "pera", "naranja", "uva", "mango", "piña", "fresa", "sandía", "melón" 
 ]; 
@@ -12,8 +13,11 @@ for(let i = 0; i < listaFrutasA.length; i++){
     for(let j = 0; j < listaFrutasB.length; j++){
         const frutaB = listaFrutasB[j];
         if(frutaA === frutaB){
-            console.log(frutaA);
+            console.log("Fruta Encontrada: " + frutaA);
+        }else {
+            console.log("Fruta No coincide: " + frutaA + " y " + frutaB);
         }
     }
     console.log(frutaA);
+
 }
