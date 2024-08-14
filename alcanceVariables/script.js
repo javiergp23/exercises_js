@@ -14,7 +14,7 @@ function Resta(){
     return resultado;
 }
 
-debugger;
+// debugger;
 var resultado;
 document.write("El resultado de la suma es:"+Suma()+"<br>");
 document.write("El resultado de la resta es:"+Resta()+"<br>");
