@@ -7,7 +7,13 @@ const listaFrutasB = [
 ];
 
 for(let i = 0; i < listaFrutasA.length; i++){
-    const frutaA = listaFrutasA[contadorPrimerFor];
+    const frutaA = listaFrutasA[i];
 
+    for(let j = 0; j < listaFrutasB.length; j++){
+        const frutaB = listaFrutasB[j];
+        if(frutaA === frutaB){
+            console.log(frutaA);
+        }
+    }
     console.log(frutaA);
 }
