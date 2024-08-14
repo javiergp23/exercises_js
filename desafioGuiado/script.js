@@ -10,6 +10,7 @@ let calcularYmostrar = (num) => {
         console.log(`${i} * ${num} = ${resultado}`);
     }
 
+    // ciclo for anidado
     for(let i = 1; i <= num; i++){
         let resultado = 1;
         for(let j = 1; j <= i; j++){
